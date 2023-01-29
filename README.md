@@ -4,7 +4,7 @@ This project aims to provide a dashboard for searching for insights into the cur
 The **[link](https://public.tableau.com/app/profile/volodymyr.khudokormov/viz/korter_geSecondaryRealEstateMarketAnalysis/Dashboard1?publish=yes)** 
 to the actual dashboard version. It refreshed daily.
 
-<a href="https://ibb.co/L8H1PWG"><img src="https://i.ibb.co/473pfGQ/chrome-Jl-Rwm-Uhl-Fz.png" alt="chrome-Jl-Rwm-Uhl-Fz" border="0"></a>
+[![Link](https://i.ibb.co/473pfGQ/chrome-Jl-Rwm-Uhl-Fz.png)](https://public.tableau.com/app/profile/volodymyr.khudokormov/viz/korter_geSecondaryRealEstateMarketAnalysis/Dashboard1?publish=yes)
 
 The screenshot is also clickable
 
