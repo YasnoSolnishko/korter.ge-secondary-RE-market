@@ -12,7 +12,10 @@ from gspread_dataframe import set_with_dataframe
 from google.oauth2.service_account import Credentials
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
+import logging
 
+logging.basicConfig(filename="/home/ubuntu/Documents/Logs/korter_ge_log.txt", level=logging.DEBUG,
+                    format="%(asctime)s %(message)s")
 
 def parse_page_to_dict(link):
     """
@@ -48,9 +51,7 @@ def parse_page_to_dict(link):
     return res["apartmentListingStore"]["apartments"]
 
 
-date_now = str(datetime.now().isoformat(timespec="seconds"))
-date_now = date_now.replace(":", "_")
-print("parsing started on {}".format(date_now))
+logging.info("parsing started")
 
 # requesting the webpage for defining the number of pages for parsing
 
@@ -157,10 +158,4 @@ filename = "/home/ubuntu/Documents/korter_data/" + date_now + ".csv"  # linux
 filepath = Path(filename)
 data.to_csv(filepath)
 
-print("parsing completed on {}".format(date_now))
-
-
-# 1 copy the json file to server
-# 2 change the path to json
-# 3 test the script
-# 4 make the script run from github
+logging.info("parsing completed")
