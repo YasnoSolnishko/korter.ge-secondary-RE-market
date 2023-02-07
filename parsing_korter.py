@@ -100,7 +100,7 @@ data = res["apartmentListingStore"]["apartments"]
 
 # traversing through pages and further populating the database
 
-for i in range(2, 4):
+for i in range(2, page_count + 1):
     # make a link with a page number
     url = "https://korter.ge/en/apartments-for-sale-in-tbilisi?page={}\
         #9.71/41.7227/44.8103/0/60".format(i)
