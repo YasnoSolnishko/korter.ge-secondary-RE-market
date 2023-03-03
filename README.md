@@ -2,7 +2,9 @@
 This project aims to provide a dashboard for searching for insights into the current secondary real estate market trends and patterns.
 
 The **[link](https://public.tableau.com/app/profile/volodymyr.khudokormov/viz/korter_geSecondaryRealEstateMarketAnalysis/Dashboard1?publish=yes)** 
-to the actual dashboard version. It refreshed daily.
+to the actual dashboard version. It should be refreshed daily (⚠️unfortunately, it doesn't refresh daily⚠️).   
+🔴**There is some bug on the Tableau side**🔴. The request to solve the problem is created and can be accessed by the [link](https://community.tableau.com/s/feed/0D58b0000AhNxrlCQC)
+
 
 [![Link](https://i.ibb.co/473pfGQ/chrome-Jl-Rwm-Uhl-Fz.png)](https://public.tableau.com/app/profile/volodymyr.khudokormov/viz/korter_geSecondaryRealEstateMarketAnalysis/Dashboard1?publish=yes)
 
