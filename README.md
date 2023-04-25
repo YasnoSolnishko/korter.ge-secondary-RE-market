@@ -1,5 +1,5 @@
 # Description
-This project aims to provide a dashboard for searching for insights into the current secondary real estate market trends and patterns in Tbilisi based on the data from korter.ge website.
+This project aims to provide a dashboard for searching for insights and have a whole picture of the current secondary real estate market trends and patterns in Tbilisi based on the data from korter.ge website.
 
 The 🔗[link](https://public.tableau.com/app/profile/volodymyr.khudokormov/viz/korter_geSecondaryRealEstateMarketAnalysis/Dashboard1?publish=yes) 
 to the actual dashboard version. The screenshot is also clickable
